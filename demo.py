@@ -6,7 +6,7 @@ def hello():
 	return "welcome to the flask tutorials"
 
 @app.route('/app')
-def app():
+def app11():
 	return render_template("app.html")
 
 if __name__ == "__main__": 
